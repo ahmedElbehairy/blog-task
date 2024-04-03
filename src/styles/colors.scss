@@ -1,0 +1,62 @@
+// Vars Color
+$main: #42307D;
+$secondary: #667085;
+$support1: #101828;
+$support2: #6941C6;
+$parple: #d6bbfb4c;
+$white: #ffffff;
+$white-light: #D0D5DD;
+$white-smoke: #F9F5FF;
+.bg-Inherit {
+  background-color: inherit;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-main {
+  background-color: $main !important;
+}
+.bg-support1 {
+  background-color: $support1;
+}
+.bg-secondary-color {
+  background-color: $secondary;
+}
+.bg-support2 {
+  background-color: $support2;
+}
+.bg-white {
+  background-color: $white;
+}
+.bg-white-light {
+  background-color: $white-light;
+}
+.bg-white-smoke {
+  background-color: $white-smoke;
+}
+.bg-parple {
+  background-color: $parple;
+}
+// END === Background Color
+// START === Text Color
+.text-main {
+  color: $main !important;
+}
+.text-secondary {
+  color: $secondary;
+}
+.text-support1 {
+  color: $support1;
+}
+.text-support2 {
+  color: $support2;
+}
+.text-white {
+  color: $white;
+}
+.text-white-light {
+  color: $white-light;
+}
+// END === Text Color
+// START === gradient color
+// END === gradient color

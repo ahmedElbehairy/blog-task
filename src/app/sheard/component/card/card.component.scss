@@ -1,0 +1,25 @@
+.size-img-card{
+    width: 336px;
+    height: 240px;
+    @media (max-width: 992px) {
+        height: 200px;
+        width: 295px;
+      }
+    }
+    .size-img-user{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .single-line {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
+    }
+    
+    .size-of-card {
+        height: 580px !important;
+        @media (max-width: 992px) {
+            height: 340px;
+          }
+    }

@@ -1,0 +1,178 @@
+// Start Font-Face
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url("../assets/font/Inter-SemiBold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Medium;
+  src: url("../assets/font/Inter-Medium.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url("../assets/font/Inter-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url("../assets/font/Inter-Bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Light;
+  src: url("../assets/font/Inter-Light.ttf");
+  font-display: swap;
+}
+
+// END Font-Face
+// font sizes [Inter-Regular] === Start
+.font-Regular-s14 {
+  font-size: 14px !important;
+  font-family: Inter-Regular;
+  font-style: normal;
+}
+
+.font-Regular-s16 {
+  font-size: 16px !important;
+  font-family: Inter-Regular;
+}
+.font-Regular-s20 {
+  font-size: 20px !important;
+  font-family: Inter-Regular;
+
+  @media (max-width: 992px) {
+    font-size: 18px !important;
+  }
+}
+
+// font sizes [Inter-SemiBold] === End
+// font sizes [Inter-SemiBold] === Start
+.font-SemiBold-s14 {
+  font-size: 14px !important;
+  font-family: Inter-SemiBold;
+}
+
+.font-SemiBold-s16 {
+  font-size: 16px !important;
+  font-family: Inter-SemiBold;
+
+  @media (max-width: 992px) {
+    font-size: 14px !important;
+  }
+}
+
+.font-SemiBold-s18 {
+  font-size: 18px !important;
+  font-family: Inter-SemiBold;
+
+  @media (max-width: 992px) {
+    font-size: 16px !important;
+  }
+}
+
+.font-SemiBold-s20 {
+  font-size: 20px !important;
+  font-family: Inter-SemiBold;
+
+  @media (max-width: 992px) {
+    font-size: 16px !important;
+  }
+}
+
+.font-SemiBold-s24 {
+  font-size: 24px !important;
+  font-family: Inter-SemiBold;
+
+  @media (max-width: 992px) {
+    font-size: 20px !important;
+  }
+}
+
+.font-SemiBold-s32 {
+  font-size: 32px !important;
+  font-family: Inter-SemiBold;
+}
+
+.font-SemiBold-s40 {
+  font-size: 40px !important;
+  font-family: Inter-SemiBold;
+}
+
+.font-SemiBold-s48-s-36 {
+  font-size: 40px !important;
+  font-family: Inter-SemiBold;
+
+  @media (max-width: 992px) {
+    font-size: 36px !important;
+  }
+}
+
+// font sizes [Inter-SemiBold] === End
+// font sizes [Inter-Medium] === Start
+.font-Medium-s14 {
+  font-size: 14px !important;
+  font-family: Inter-Medium;
+
+  @media (max-width: 992px) {
+    font-size: 12px !important;
+  }
+}
+
+.font-Medium-s16 {
+  font-size: 16px !important;
+  font-family: Inter-Medium;
+
+  @media (max-width: 992px) {
+    font-size: 14px !important;
+  }
+}
+
+// font sizes [Inter-Medium] === End
+// font sizes [Inter-Bold] === Start
+.font-Bold-s16 {
+  font-size: 16px !important;
+  font-family: Inter-Bold;
+
+  @media (max-width: 992px) {
+    font-size: 12px !important;
+  }
+}
+
+.font-Bold-s16-s14 {
+  font-size: 16px !important;
+  font-family: Inter-Bold;
+
+  @media (max-width: 992px) {
+    font-size: 14px !important;
+  }
+}
+
+.font-Bold-s18 {
+  font-size: 18px !important;
+  font-family: Inter-Bold;
+
+  @media (max-width: 992px) {
+    font-size: 14px !important;
+  }
+}
+
+.font-Bold-s20 {
+  font-size: 20px !important;
+  font-family: Inter-Bold;
+}
+
+.font-Bold-s24 {
+  font-size: 24px !important;
+  font-family: Inter-Bold;
+
+  @media (max-width: 992px) {
+    font-size: 16px !important;
+  }
+}
+
+// font sizes [Inter-Bold] === End
